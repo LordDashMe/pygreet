@@ -49,7 +49,7 @@ $ twine upload dist/*
 When using the docker compose setup, make sure to execute the commands below:
 
 ```bash
-$ apk add --update --no-cache --virtual .tmp-build-deps gcc libc-dev linux-headers postgresql-dev && apk add libffi-dev
+$ apk add --update --no-cache --virtual .tmp-build-deps gcc libc-dev linux-headers postgresql-dev libffi-dev 
 ```
 
 ## License
